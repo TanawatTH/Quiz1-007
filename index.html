@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <title>Quiz1</title>
+</head>
+<body>
+    <ons-page>
+        <ons-toolbar>
+          <div class="center">Tab 1</div>
+        </ons-toolbar>
+      
+        <ons-tabbar swipeable position="auto">
+          <ons-tab page="tab1.html" label="Tab 1" icon="ion-home, material:md-home" badge="7" active>
+          </ons-tab>
+          <ons-tab page="tab2.html" label="Tab 2" icon="md-settings" active-icon="md-face">
+          </ons-tab>
+        </ons-tabbar>
+      </ons-page>
+      
+      <template id="tab1.html">
+        <ons-page id="Tab1">
+          <p style="text-align: center;">
+            This is the first page.
+          </p>
+        </ons-page>
+      </template>
+      
+      <template id="tab2.html">
+        <ons-page id="Tab2">
+          <p style="text-align: center;">
+            This is the second page.
+          </p>
+        </ons-page>
+      </template>
+</body>
+</html>
