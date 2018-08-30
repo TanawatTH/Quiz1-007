@@ -44,7 +44,7 @@
                           ></ons-search-input>
 
                         </p>
-                        <ons-carousel  swipeable auto-scroll overscrollable id="carousel" style="height: 300px;">
+                        <ons-carousel  swipeable auto-scroll overscrollable id="carousel" style="height: 300px;" >
                                 <ons-carousel-item style="background: url(image/1.jpg)no-repeat center;background-size: contain;">
                                   
                                 </ons-carousel-item>
@@ -56,7 +56,7 @@
                                 </ons-carousel-item>
                               </ons-carousel>
                              <!-- เเถวเเรก -->
-                              <ons-row class="category">
+                              <ons-row class="category" style="text-align: center">
                                     <ons-col modifier="nodivider" id="Category_1" onclick="openPlaylist(this.id)">
                                       <div class="category_wrapper">
                                         <figure class="category_thumbnail">
@@ -76,63 +76,63 @@
                                     <ons-col modifier="nodivider" id="Category_2" onclick="openPlaylist(this.id)">
                                             <div class="category_wrapper">
                                               <figure class="category_thumbnail">
-                                                <ons-icon icon="fa-headphones"></ons-icon>
+                                                <ons-icon icon="md-laptop"></ons-icon>
                                                 <div class="category_title" id="Category_2_name">Computer</div>
                                               </figure>
                                             </div>
                                           </ons-col>
                                   </ons-row>
                                        <!-- เเถว2 -->
-                                  <ons-row class="category">  
+                                  <ons-row class="category" style="text-align: center">  
                                     <ons-col modifier="nodivider" id="Category_3" onclick="openPlaylist(this.id)">
                                       <div class="category_wrapper">
                                         <figure class="category_thumbnail">
                                           <ons-icon icon="ion-music-note"></ons-icon>
-                                          <div class="category_title" id="Category_3_name">Classical</div>
+                                          <div class="category_title" id="Category_3_name">Music</div>
                                         </figure>
                                       </div>
                                     </ons-col>
                                     <ons-col modifier="nodivider" id="Category_4" onclick="openPlaylist(this.id)">
                                       <div class="category_wrapper">
                                         <figure class="category_thumbnail">
-                                          <ons-icon icon="ion-android-microphone"></ons-icon>
-                                          <div class="category_title" id="Category_4_name">Pop</div>
+                                          <ons-icon icon="md-watch"></ons-icon>
+                                          <div class="category_title" id="Category_4_name">Watch</div>
                                         </figure>
                                       </div>
                                     </ons-col>
                                     <ons-col modifier="nodivider" id="Category_4" onclick="openPlaylist(this.id)">
                                             <div class="category_wrapper">
                                               <figure class="category_thumbnail">
-                                                <ons-icon icon="ion-android-microphone"></ons-icon>
-                                                <div class="category_title" id="Category_4_name">Pop</div>
+                                                <ons-icon icon="md-smartphone"></ons-icon>
+                                                <div class="category_title" id="Category_4_name">SmartPhone</div>
                                               </figure>
                                             </div>
                                     
                                   </ons-row>
                                             <!-- เเถว3 -->
 
-                                  <ons-row class="category">    
+                                  <ons-row class="category" style="text-align: center">    
                                     <ons-col modifier="nodivider" id="Category_5" onclick="openPlaylist(this.id)">
                                       <div class="category_wrapper">
                                         <figure class="category_thumbnail">
-                                          <ons-icon icon="fa-smile-o"></ons-icon>
-                                          <div class="category_title" id="Category_5_name">Happy</div>
+                                          <ons-icon icon="md-toys"></ons-icon>
+                                          <div class="category_title" id="Category_5_name">Toy</div>
                                         </figure>
                                       </div>
                                     </ons-col>
                                     <ons-col modifier="nodivider" id="Category_6" onclick="openPlaylist(this.id)">
                                       <div class="category_wrapper">
                                         <figure class="category_thumbnail">
-                                          <ons-icon icon="fa-bed"></ons-icon>
-                                          <div class="category_title" id="Category_6_name">Sleepy</div>
+                                          <ons-icon icon="md-mouse"></ons-icon>
+                                          <div class="category_title" id="Category_6_name">Hardware</div>
                                         </figure>
                                       </div>
                                     </ons-col>
-                                    <ons-col modifier="nodivider" id="Category_6" onclick="openPlaylist(this.id)">
+                                    <ons-col modifier="nodivider" id="Category_6" onclick="openPlaylist(this.id)" >
                                             <div class="category_wrapper">
                                               <figure class="category_thumbnail">
-                                                <ons-icon icon="fa-bed"></ons-icon>
-                                                <div class="category_title" id="Category_6_name">Sleepy</div>
+                                                <ons-icon icon="md-gamepad"></ons-icon>
+                                                <div class="category_title" id="Category_6_name">Gaming</div>
                                               </figure>
                                             </div>
                                           </ons-col>
@@ -197,7 +197,7 @@
                                   max-width: 120px;
                                   width: 90%;
                                   margin: auto;
-                                  background-color: rgba(128, 128, 128, 0.62);
+                                  background-color: rgba(14, 236, 44, 0.836);
                                 }
                           
                                 .category_wrapper ons-icon {
@@ -230,12 +230,12 @@
                         <img class="list-item__thumbnail" src="image/item1.jpg">
                     </div>
                     <div class="center">
-                        <span class="list-item__title">นาฬิกา</span>
-                        <span class="list-item__subtitle">$500</span>
+                        <span class="list-item__title">Watch</span>
+                        <span class="list-item__subtitle">$3500 TH_B</span>
                     </div>
                     <div class="right">
                             <ons-toolbar-button>
-                                <ons-icon icon="md-trash-alt"></ons-icon>
+                                <ons-icon icon="md-delete"></ons-icon>
                             </ons-toolbar-button>
                         </div>
                 </ons-list-item>
@@ -244,12 +244,12 @@
                         <img class="list-item__thumbnail" src="image/item2.jpg">
                     </div>
                     <div class="center">
-                        <span class="list-item__title">ลำโพง</span>
-                        <span class="list-item__subtitle">$300</span>
+                        <span class="list-item__title">Loudspeaker</span>
+                        <span class="list-item__subtitle">$2500 TH_B</span>
                     </div>
                     <div class="right">
                             <ons-toolbar-button>
-                                <ons-icon icon="md-trash-alt"></ons-icon>
+                                <ons-icon icon="md-delete"></ons-icon>
                             </ons-toolbar-button>
                         </div>
                 </ons-list-item>
@@ -259,15 +259,31 @@
                     </div>
                     <div class="center">
                         <span class="list-item__title">Nike Air Max</span>
-                        <span class="list-item__subtitle">$100</span>
+                        <span class="list-item__subtitle">$10000 TH_B</span>
                         
                     </div>
                     <div class="right">
                             <ons-toolbar-button>
-                                <ons-icon icon="fa-trash-alt"></ons-icon>
+                                <ons-icon icon="md-delete"></ons-icon>
                             </ons-toolbar-button>
                         </div>
                 </ons-list-item>
+                <ons-list-item>
+                        <div class="left">
+                            <img class="list-item__thumbnail" src="image/4.JPEG">
+                        </div>
+                        <div class="center">
+                            <span class="list-item__title">Marijuana</span>
+                            <span class="list-item__subtitle">$100000 TH_B</span>
+                            
+                        </div>
+                        <div class="right">
+                                <ons-toolbar-button>
+                                    <ons-icon icon="md-delete"></ons-icon>
+                                </ons-toolbar-button>
+                            </div>
+                    </ons-list-item>
+                   <ons-button modifier="large">PROCEED TO PAY</ons-button>
             </ons-page>
         </template>
 </body>
